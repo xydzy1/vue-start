@@ -5,4 +5,7 @@ export default {
   plugins: [
     createVuePlugin(/* options */)
   ],
+  server: {
+    port: 8080
+  }
 }
