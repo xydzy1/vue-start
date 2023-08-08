@@ -10,9 +10,11 @@
   },
   "devDependencies": {
     "@vue/runtime-dom": "^3.3.4",
+    "axios": "^1.4.0",
     "npx": "^10.2.2",
     "vite": "^4.4.5",
     "vite-plugin-vue2": "^2.0.3",
+    "vue-router": "^3.6.5",
     "vue-template-compiler": "^2.6.14"
   },
   "dependencies": {
