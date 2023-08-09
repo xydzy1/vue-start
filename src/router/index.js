@@ -6,11 +6,11 @@ Vue.use(VueRouter)
 const routes=[
     {
         path: '/',
-        redirect: 'main',
+        redirect: 'new_homepage',
     },
     {
-        path: '/main',
-        name: 'main',
+        path: '/new_homepage',
+        name: 'new_homepage',
         component: () => import('../components/main.vue'),
     },
     {
