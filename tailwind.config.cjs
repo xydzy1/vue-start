@@ -42,11 +42,12 @@ module.exports = {
         'p3_shadow': '0px 4px 12px 0px rgba(0, 0, 0, 0.06)',
       },
       spacing:{
-        '15': '60px',
         '11': '44px',
+        '15': '60px',
         '41.5': '166px',
         '45': '180px',
         '66': '264px',
+        '110': '440px',
         '114': '456px',
         '125': '500px',
         '130': '520px',
@@ -73,6 +74,9 @@ module.exports = {
       },
       fontFamily: {
         'Sara': ['Sarasa Gothic SC'],
+      },
+      fontSize: {
+        '4.5': ['18px', '26px'],
       },
       lineHeight: {
         '12': '3rem'
