@@ -134,7 +134,7 @@
 		</div>
 		<div class="container pt-66 pb-66 pl-20 pb-20 absolute flex flex-col max-w-full h-1000 mt-3600 xl:mt-3100 items-center justify-center">
 			<div>
-			<span class="flex-none text-4xl ml-24 xl:ml-0 font-bold w-125">
+			<span class="flex-none flex text-4xl ml-24 xl:ml-0 font-bold w-125 ">
 				<span class="bg-gradient-to-r from-p4_cword1_1 to-p4_cword1_2 inline-block bg-clip-text text-transparent">
 					特色
 				</span>
