@@ -5,8 +5,11 @@ import router from './router'
 import App from "./App.vue"
 import axios from 'axios'
 import './style/tailwind.css'
+import ElementUI from "element-ui"
+import 'element-ui/lib/theme-chalk/index.css'
 
-Vue.use(VueRouter)
+Vue.use(ElementUI)
+Vue.use(VueRouter);
 
 new Vue({
    router,

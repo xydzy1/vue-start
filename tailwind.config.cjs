@@ -27,6 +27,7 @@ module.exports = {
         p3_cword2_1: '#F74CBE',
         p3_cword2_2: '#1A52EE',
         p3_cword3: '#9E9E9E',
+        p3_cword4: '#787878',
         p4_cword1_1: '#FF3C3C',
         p4_cword1_2: '#663CFF',
         p4_cword2_1: '#F74C88',
@@ -36,8 +37,9 @@ module.exports = {
         center: true,
         padding: '10px',
       },
-      dropShadow: {
-        'p3_shadow': '0px 40x 12px 0px rgba(0,0,0,0.06)',
+      boxShadow: {
+        'p1_shadow': '0px 6px 32px 0px rgba(0, 0, 0, 0.12)',
+        'p3_shadow': '0px 4px 12px 0px rgba(0, 0, 0, 0.06)',
       },
       spacing:{
         '15': '60px',
@@ -54,9 +56,12 @@ module.exports = {
         '760': '760px',
         '1000': '1000px',
         '1280': '1280px',
+        '1500': '1500px',
         '2100': '2100px',
         '3100': '3100px',
+        '3600': '3600px',
         '4100': '4100px',
+        '4600': '4600px',
         '3/5': '60%',
         '1/7': '14.2857143%',
         '1/8': '12.5%',
