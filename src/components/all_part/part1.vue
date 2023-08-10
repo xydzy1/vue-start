@@ -30,7 +30,7 @@
 			<div class="search-area">
 				<i class="el-icon-search"></i>
 				<input type="text" class="search-frame" placeholder="在此输入知识点名称" v-model="serchinfo">
-				<div class="absolute right-0 scale-50">
+				<div class="absolute right-0">
 				<button @click='hello' class="transition duration-300 transform hover:scale-95 text-center border-2 rounded-full pl-10 pr-10 pt-3 pb-3 text-white text-xl font-normal bg-gradient-to-r from-p1_cbutton1 to-p1_cbutton2">
 					搜索
 				</button>
@@ -52,6 +52,15 @@
 	    </div>
     </div>
 </template>
+
+<style scoped>
+	.el-icon-search{
+	font-size: 20px;
+	line-height: 28px;
+	margin-left: 20px;
+	padding-right: 12px;
+}
+</style>
 
 <script>
     import {scroll_color} from '../../../static/utils/scroll'

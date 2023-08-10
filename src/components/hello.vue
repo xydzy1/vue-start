@@ -3,11 +3,7 @@
         <div class="hello-text">
         Hello World!
         </div>
-<<<<<<< HEAD
         <button @click="back" class="back-button">
-=======
-        <button @click="back" class="absolute top-20 flex-none border-2 rounded-full pl-10 pr-10 pt-3 pb-3 shadow bg-gradient-to-t from-p1_cbutton1 to-p1_cbutton2 text-white text-xl font-light">
->>>>>>> 09c02ae997e38f664559a1bc236fb84cb1866e18
             back
         </button>
     </div>
