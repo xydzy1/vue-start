@@ -1,10 +1,10 @@
 <template>
-	<body class="font-Sara items-center overflow-x-hidden">
+	<div class="font-Sara items-center overflow-x-hidden">
 		<part1/>
 		<part2/>
 		<part3/>
 		<part4/>
-	</body>	
+	</div>	
 </template>
 
 <style scoped>
