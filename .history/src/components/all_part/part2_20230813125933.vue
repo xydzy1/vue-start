@@ -1,5 +1,5 @@
 <template>
-    <div class="absolute w-full overflow-hidden max-w-1280 flex items-center justify-center h-1500 minw:h-1000 mt-p2_mt px-10 minw:px-20 py-50">
+    <div class="absolute w-full overflow-x-hidden max-w-1280 flex items-center justify-center h-1500 minw:h-1000 mt-p2_mt px-10 minw:px-20 py-50">
 			<div class="flex flex-col-reverse minw:flex-row flex-none items-center justify-center">
 				<div class="flex flex-col items-center justify-center minw:items-stretch mt-20 minw:mt-0">
 					<div class="flex flex-row text-xl font-semibold ml-6">

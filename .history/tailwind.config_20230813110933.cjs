@@ -44,7 +44,6 @@ module.exports = {
         'p1_shadow': '0px 6px 32px 0px rgba(0, 0, 0, 0.12)',
         'p1_shadow2': '1px 2px 6px 0px rgba(0, 0, 0, 0.08)',
         'p3_shadow': '0px 4px 12px 0px rgba(0, 0, 0, 0.06)',
-        'p4_shadow': '0px 6px 16px 0px rgba(0, 0, 0, 0.08)',
       },
       spacing:{
         '11': '44px',
@@ -106,7 +105,6 @@ module.exports = {
         'minw': '1200px',
       },
       minWidth:{
-        '36': '144px',
         '72': '288px'
       },
       maxWidth:{

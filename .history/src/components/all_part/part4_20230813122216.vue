@@ -1,5 +1,6 @@
 <template>
-        <div class="overflow-x-hidden transition duration-200 ease-in-out w-full max-w-1280 py-66 absolute flex flex-col h-auto md:h-1160 mt-p4_mt2 minw:mt-p4_mt1 items-center justify-center">
+    <div class="transition duration-200 ease-in-out w-full max-w-1280">
+        <div class="py-66 px-20 absolute flex flex-col h-auto md:h-1160 mt-p4_mt2 minw:mt-p4_mt1 items-center justify-center">
 			<div class="flex-none flex text-4xl ml-24 minw:ml-0 font-bold w-125 ">
 				<span class="bg-gradient-to-r from-p4_cword1_1 to-p4_cword1_2 inline-block bg-clip-text text-transparent">
 					特色
@@ -12,9 +13,9 @@
 			</div>
 			<div class="flex flex-col minw:flex-row mt-12">
 				<div class="flex-none flex flex-col md:flex-row max-w-full minw:max-w-2xl">
-					<div class="relative transform hover:-translate-y-4 flex flex-col w-auto min-w-72 h-96 rounded-3xl shadow-p4_shadow mx-4">
-						<div class="rounded-t-3xl w-auto min-w-72 h-36 overflow-hidden text-center">
-							<img src="../../image/p4-1.png" class="w-full h-full">
+					<div class="relative transform hover:-translate-y-4 flex flex-col w-auto min-w-72 h-96 rounded-3xl shadow-md mx-4">
+						<div class="w-auto min-w-72 h-36 overflow-hidden bg-center">
+							<img src="../../image/p4-1.png" class="block mx-auto w-auto min-w-72 h-auto min-h-36">
 						</div>
 						<span class="text-2xl font-bold mt-5 mx-5">试卷分析</span>
 						<span class="text-p3_cword3 leading-8 mt-2 mx-5 font-normal">
@@ -25,9 +26,9 @@
 							<button class="text-p4_cbutton pl-5 pt-2">了解更多<i class="el-icon-right pl-2"></i></button>
 						</span>
 					</div>
-					<div class="relative transform hover:-translate-y-4 flex flex-col w-auto min-w-72 h-96 rounded-3xl shadow-p4_shadow mx-4 mt-16 md:mt-0">
-						<div class="rounded-t-3xl w-auto min-w-72 h-36 overflow-hidden">
-							<img src="../../image/p4-2.png" class="w-full h-full">
+					<div class="relative transform hover:-translate-y-4 flex flex-col w-auto min-w-72 h-96 rounded-3xl shadow-md mx-4 mt-16 md:mt-0">
+						<div class="w-auto min-w-72 h-36 overflow-hidden">
+							<img src="../../image/p4-2.png" class="w-auto min-w-72 h-auto min-h-36">
 						</div>
 						<span class="text-2xl font-bold mt-5 mx-5">组卷系统</span>
 						<span class="text-p3_cword3 leading-8 mt-2 mx-5 font-normal">
@@ -40,9 +41,9 @@
 					</div>
 				</div>
 				<div class="flex flex-none flex-col md:flex-row max-w-full minw:max-w-2xl">
-					<div class="relative transform hover:-translate-y-4 flex flex-col w-auto min-w-72 h-96 rounded-3xl shadow-p4_shadow mx-4 mt-16 minw:mt-0">
-							<div class="rounded-t-3xl w-auto min-w-72 h-36 overflow-hidden">
-								<img src="../../image/p4-3.png"	class="w-full h-full">						
+					<div class="relative transform hover:-translate-y-4 flex flex-col w-auto min-w-72 h-96 rounded-3xl shadow-md mx-4 mt-16 minw:mt-0">
+							<div class="w-auto min-w-72 h-36 overflow-hidden">
+								<img src="../../image/p4-3.png"	class="w-auto min-w-72 h-auto min-h-36">						
 							</div>
 							<span class="text-2xl font-bold mt-5 mx-5">AI实验室</span>
 							<span class="text-p3_cword3 leading-8 mt-2 mx-5 font-normal">
@@ -53,9 +54,9 @@
 								<button class="text-p4_cbutton pl-5 pt-2">立即前往<i class="el-icon-right pl-2"></i></button>
 							</span>
 					</div>
-					<div class="relative transform hover:-translate-y-4 flex flex-col w-auto min-w-72 h-96 rounded-3xl shadow-p4_shadow mx-4 mt-16 minw:mt-0">
-						<div class="rounded-t-3xl w-auto min-w-72 h-36 overflow-hidden">
-							<img src="../../image/p4-4.png" class="w-full h-full">
+					<div class="relative transform hover:-translate-y-4 flex flex-col w-auto min-w-72 h-96 rounded-3xl shadow-md mx-4 mt-16 minw:mt-0">
+						<div class="w-auto min-w-72 h-36 overflow-hidden">
+							<img src="../../image/p4-4.png" class="w-auto min-w-72 h-auto min-h-36">
 						</div>
 						<span class="text-2xl font-bold mt-5 mx-5">智能教辅平台</span>
 						<span class="text-p3_cword3 leading-8 mt-2 mx-5 font-normal">
@@ -85,13 +86,8 @@
 			</div>
 			</div>
 		</div>
+    </div>
 </template>
-
-<style>
-	img{
-		object-fit: cover;
-	}
-</style>
 
 <script>
     export default{

@@ -32,14 +32,16 @@
 				<div class="w-search_frame_narrow md:w-search_frame_wide">
 					<input type="text" class="my-search_frame_my flex-none text-left text-4.5 font-medium w-search_frame_narrow md:w-search_frame_wide flex-none outline-none z-1" placeholder="在此输入知识点名称" v-model="serchinfo">
 				</div>
-				<button @click='hello' class="ml-4 shadow-p1_shadow2 transition duration-300 text-center rounded-full px-10 py-3 z-2 text-white text-xl font-normal bg-gradient-to-r from-p1_cbutton1 to-p1_cbutton2">
+				<div class="absolute right-0 shadow-p1_shadow2 rounded-full px-0 py-0 mr-1">
+					<button @click='hello' class="shadow-p1_shadow2 transition duration-300 text-center border-2 rounded-full px-10 py-3 z-2 text-white text-xl font-normal bg-gradient-to-r from-p1_cbutton1 to-p1_cbutton2">
 					搜索
 				</button>
+				</div>
 			</div>
 		</div>
         <div class="w-full max-w-1280 absolute flex items-center justify-center h-p1_2_nh md:h-p1_2_wh mt-p1_1_nh md:mt-p1_1_wh">
 			    <div class="absolute top-10">
-				    <button @click="hello" class="transition duration-300 rounded-full pl-10 pr-10 pt-3 pb-3 bg-gradient-to-t from-p1_cbutton1 to-p1_cbutton2 text-white text-xl font-normal">
+				    <button @click="hello" class="transition duration-300 border-2 rounded-full pl-10 pr-10 pt-3 pb-3 bg-gradient-to-t from-p1_cbutton1 to-p1_cbutton2 text-white text-xl font-normal">
 					    vue-router-api
 				    </button>
 			    </div>

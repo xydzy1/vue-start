@@ -1,5 +1,5 @@
 <template>
-        <div class="overflow-x-hidden transition duration-200 ease-in-out w-full max-w-1280 py-66 absolute flex flex-col h-auto md:h-1160 mt-p4_mt2 minw:mt-p4_mt1 items-center justify-center">
+        <div class="transition duration-200 ease-in-out w-full max-w-1280 py-66 px-20 absolute flex flex-col h-auto md:h-1160 mt-p4_mt2 minw:mt-p4_mt1 items-center justify-center">
 			<div class="flex-none flex text-4xl ml-24 minw:ml-0 font-bold w-125 ">
 				<span class="bg-gradient-to-r from-p4_cword1_1 to-p4_cword1_2 inline-block bg-clip-text text-transparent">
 					特色

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="w-full max-w-1280 p-10 md:p-5 absolute flex items-center justify-center h-p1_1_nh md:h-p1_1_wh bg-gradient-to-r from-p1_c3 from-0% via-p1_c2 via-45% to-p1_c1 to-100% bg-opacity-100">
+        <div class="w-auto max-w-1280 p-10 md:p-5 absolute flex items-center justify-center h-p1_1_nh md:h-p1_1_wh bg-gradient-to-r from-p1_c3 from-0% via-p1_c2 via-45% to-p1_c1 to-100% bg-opacity-100">
 			<div class="fixed flex flex-row top-0 w-full z-50 py-nav_py" id="nav">
 				<span class="flex-none pl-14">
 					<img src="../../image/logo.png" class="w-36 h-11" >

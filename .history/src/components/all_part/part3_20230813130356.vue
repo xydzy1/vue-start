@@ -1,5 +1,5 @@
 <template>
-    <div class="overflow-hidden items-center justify-center py-45 px-10 minw:px-20 absolute w-full max-w-1280 flex flex-col minw:flex-row h-1500 minw:h-1000 mt-p3_mt2 minw:mt-p3_mt1 bg-gradient-to-r from-p3_c1 to-p3_c2">
+    <div class="overflow-x-hidden items-center justify-center py-45 px-10 minw:px-20 absolute w-full max-w-1280 flex flex-col minw:flex-row h-1500 minw:h-1000 mt-p3_mt2 minw:mt-p3_mt1 bg-gradient-to-r from-p3_c1 to-p3_c2">
 			<div class="flex-none">
 				<div class="flex flex-col items-center minw:items-stretch">
 					<span class="flex-none w-125 h-8 text-4xl font-bold text-center minw:text-left">

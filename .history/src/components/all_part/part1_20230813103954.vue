@@ -32,7 +32,7 @@
 				<div class="w-search_frame_narrow md:w-search_frame_wide">
 					<input type="text" class="my-search_frame_my flex-none text-left text-4.5 font-medium w-search_frame_narrow md:w-search_frame_wide flex-none outline-none z-1" placeholder="在此输入知识点名称" v-model="serchinfo">
 				</div>
-				<button @click='hello' class="ml-4 shadow-p1_shadow2 transition duration-300 text-center rounded-full px-10 py-3 z-2 text-white text-xl font-normal bg-gradient-to-r from-p1_cbutton1 to-p1_cbutton2">
+				<button @click='hello' class="relative right-1 shadow-p1_shadow2 transition duration-300 text-center rounded-full px-10 py-3 z-2 text-white text-xl font-normal bg-gradient-to-r from-p1_cbutton1 to-p1_cbutton2">
 					搜索
 				</button>
 			</div>
